@@ -33,7 +33,7 @@ castInnerHTML += ("<li>" + role + ": " + actor + "</li>")
 
 
 
-for (let castmember of currentMovie.cast.length; i++) {
+for(let castmember of currentMovie.cast.length; i++) {
   let role = castmember.role
   let actor = castmember.actor
   castInnerHTML += ("<li>" + role +": " + actor + "</li>")
