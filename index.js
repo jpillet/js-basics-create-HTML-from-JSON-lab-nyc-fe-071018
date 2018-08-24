@@ -17,6 +17,7 @@ let genre = document.getElementById('genre')
 let filmrating = document.getElementById('filmrating')
 let poster = document.getElementById('poster')
 let decription = document.getElementById('description')
+let audienceScore = document.getElementById('audienceScore')
 
 
 title.innerHTML = currentMovie.title
